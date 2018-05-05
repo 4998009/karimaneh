@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "vazirBold";
+    src: url("/assets/fonts/vazir/Vazir-Bold-FD.ttf"),
+    url("/assets/fonts/vazir/Vazir-Bold-FD.woff"),
+    url("/assets/fonts/vazir/Vazir-Bold-FD.woff2"),
+    url("/assets/fonts/vazir/Vazir-Bold-FD.eot");
+}
+
+@font-face {
+    font-family: "vazirThin";
+    src: url("/assets/fonts/vazir/Vazir-Thin-FD.ttf"),
+    url("/assets/fonts/vazir/Vazir-Thin-FD.woff"),
+    url("/assets/fonts/vazir/Vazir-Thin-FD.woff2"),
+    url("/assets/fonts/vazir/Vazir-Thin-FD.eot");
+}
+
+@font-face {
+    font-family: "vazirMedium";
+    src: url("/assets/fonts/vazir/Vazir-Medium-FD.ttf"),
+    url("/assets/fonts/vazir/Vazir-Medium-FD.woff"),
+    url("/assets/fonts/vazir/Vazir-Medium-FD.woff2"),
+    url("/assets/fonts/vazir/Vazir-Medium-FD.eot");
+}
+
+@font-face {
+    font-family: "vazirLight";
+    src: url("/assets/fonts/vazir/Vazir-Light-FD.ttf"),
+    url("/assets/fonts/vazir/Vazir-Light-FD.woff"),
+    url("/assets/fonts/vazir/Vazir-Light-FD.woff2"),
+    url("/assets/fonts/vazir/Vazir-Light-FD.eot");
+}
+
+@font-face {
+    font-family: "vazir";
+    src: url("/assets/fonts/vazir/vazir.ttf"),
+    url("/assets/fonts/vazir/vazir.woff"),
+    url("/assets/fonts/vazir/vazir.woff2"),
+    url("/assets/fonts/vazir/vazir.eot");
+}
+
+ 

@@ -1,0 +1,471 @@
+.top-image {
+    background: url(../top-image.jpg) no-repeat;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 0px #666, 0 -2px 0px #666, 2px 0 0px #666, -2px 0 0px #666;
+}
+
+h1 {
+    font-family: "vazirBold" !important;
+}
+
+body {
+    font-size: 13px;
+    letter-spacing: -1px;
+    word-spacing: -1px;
+    background: #252528;
+    color: #ddd;
+    margin: 0;
+}
+
+.logo {
+    background: url(../logo.svg) no-repeat;
+    height: 100px;
+    background-size: contain;
+}
+
+body, html, input, form, input,
+button, span, a, li, main {
+    font-family: "vazirThin";
+    color: #ddd;
+}
+
+.nav li {
+    /*font-family: Mitra;*/
+    /*font-family: "black";*/
+    font-family: "vazirBold";
+    letter-spacing: -1px;
+    word-spacing: -2px;
+    font-size: 1.2em;
+    list-style: none;
+    font-weight: bold;
+    line-height: 40px;
+    margin: 5px 0;
+    padding: 0 8px;
+
+}
+
+.nav li:hover {
+    cursor: pointer;
+    background: #1e1e1f;
+
+    /*color: #fff   */
+
+}
+
+.cover {
+    border-radius: 50%;
+    width: 60%;
+    height: 60%;
+    transition: all .2s ease-in-out;
+}
+
+.cover:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(0.98);
+}
+
+.audio-action a {
+    color: #222;
+    text-decoration: none;
+    /*display: flex;*/
+}
+
+/*main h2 {*/
+/*font-family: "vazirBold";*/
+/*word-spacing: -2.5px;*/
+/*position: absolute;*/
+/*font-size: 26px;*/
+/*box-shadow: inset 0px 47px 30px -8px rgba(0, 0, 0, 0.63);*/
+/*height: 100px;*/
+/*z-index: 2;*/
+/*color: #fff;*/
+/*right: 0;*/
+/*top: 0;*/
+/*width: 100%;*/
+/*padding-top: 15px;*/
+/*padding-right: 15px;*/
+/*margin: 0;*/
+/*}*/
+
+.desc {
+    letter-spacing: 0px;
+    color: #444;
+}
+
+.cropped {
+    width: 100%;
+    height: 300px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    border-radius: 3px;
+    box-shadow: none;
+}
+
+.next-s {
+    position: absolute;
+    font-family: vazirThin !important;
+    word-spacing: 0;
+    letter-spacing: -1px;
+    font-size: 14px;
+    color: #aaa;
+    bottom: 80px;
+    text-decoration: overline;
+    text-decoration-color: #444;
+    text-align: center;
+}
+
+.poster {
+    max-width: 80%;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 10%;
+}
+
+.cropped img {
+    width: 100%;
+    border-radius: 2px;
+    position: absolute;
+    margin-top: -120px;
+}
+
+#lightbox {
+    position: fixed; /* keeps the lightbox window in the current viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.7;
+    text-align: center;
+}
+
+#lightbox p {
+    text-align: right;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+#lightbox img {
+
+    max-width: 940px;
+}
+
+.portfolio img {
+    width: 100%;
+    border-radius: 2px;
+    box-shadow: 2px 2px 3px #eee, -2px -2px 3px #eee, 2px -2px 3px #eee, -2px 2px 3px #eee;
+}
+
+.portfolio div {
+    /*margin: 0 !important;*/
+}
+
+.sidebar .material-icons {
+    margin: 0px 21px;
+}
+
+nav i {
+    color: #888;
+    font-size: 22px;
+    margin: 0 12px;
+}
+
+.docbar i {
+    font-size: 18px
+}
+
+.docbar {
+    position: absolute;
+    bottom: 0;
+    z-index: 9;
+}
+
+.dialog {
+    background: rgba(204, 204, 204, 0.73);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.dialog div {
+    /*width: 68%;*/
+    margin: auto;
+    text-align: center;
+    /*position: relative;*/
+    /*padding-top: 5%;*/
+}
+
+.dialog div img {
+    width: 100%;
+    /*box-shadow: 0px 0px 18px 4px #b8b8b8;*/
+    border-radius: 2px;
+    object-fit: contain;
+    height: 95vh;
+}
+
+.hide {
+    display: none;
+}
+
+.closeBtn {
+    font-size: 45px;
+    right: 50px;
+    top: 50px;
+    position: absolute;
+    color: #000;
+    cursor: pointer;
+}
+
+.closeBtn:hover {
+    border-bottom: 1px dotted #888;
+}
+
+.gallery li:hover {
+    opacity: 0.9;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.gallery li {
+    list-style: none;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+.videos li:hover I {
+    /*opacity: 0.8;*/
+    color: #fff;;
+}
+
+.videos img {
+    width: 100%;
+
+}
+
+.videos li {
+    list-style: none;
+    margin-top: -5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.videos li div {
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videos li i {
+    font-size: 46px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.videos li i:hover {
+    color: #fff;
+}
+
+.message {
+    font-family: "vazirBold";
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid #1a1a1b;
+}
+
+header {
+
+    background: #252528;
+    /*box-shadow: 0 1px 2px #141415;*/
+    background: url(/assets/header.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 272px;
+    flex: 1;
+}
+
+.z2 {
+    z-index: 2;
+
+}
+
+.sidebar {
+    /*    background: rgba(246, 246, 246, 1);*/
+    /*height: 100%;*/
+    /*position: absolute;*/
+}
+
+.sidebar ul {
+    padding-right: 0;
+}
+
+.titr {
+    font-size: large;
+    font-weight: normal;
+}
+
+.content {
+    background: #252528;
+    border-right: 1px solid #38383c;
+    float: left !important;
+
+    padding: 40px !important;
+
+}
+
+nav.sub li {
+    margin: 0;
+    font-size: 13px;
+    padding-right: 40px;
+}
+
+ 
+.audioBox i {
+    color: grey;
+    font-size: 35px;
+}
+
+.clickable:hover {
+    opacity: 1;
+}
+
+.logo-top{
+    background: url(/assets/logo-top.png) no-repeat;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    position: absolute;
+    top: 10vh;
+    z-index: 9;
+}
+.clickable {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.audioBox i:hover {
+    color: #ddd;
+}
+
+.titr a:hover {
+    transition: 0.1s;
+    color: #ffffff;
+}
+
+span.type {
+    font-size: medium;
+    word-spacing: -2px;
+}
+
+span.artist {
+    font-size: medium;
+}
+
+.artist a {
+    color: #9a9a9a;
+}
+
+h3.titr a {
+
+    color: #b8b8b9;
+}
+
+.headerFlex {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+h1.title {
+    margin: 0;
+    position: absolute;
+    /* top: 0; */
+    font-size: 16px;
+    font-family: vazirThin !important;
+    word-spacing: 0;
+    letter-spacing: -1px;
+    /* right: 20px; */
+    /* top: 20%; */
+}
+
+nav li a {
+    font-family: "vazirThin";
+}
+
+a.instagram {
+    width: 22px;
+    height: 25px;
+    background: url(../instagram.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 20px;
+}
+
+a.telegram {
+    width: 22px;
+    height: 25px;
+    background: url(../telegram.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 20px;
+    margin-right: -30px;
+}
+
+a.instagram:hover {
+    border-bottom: 1px dotted #888;
+}
+
+a.telegram:hover {
+    border-bottom: 1px dotted #888;
+}
+
+.bgcolor {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(43, 45, 48, 0.83);
+}
+
+li.tag {
+    float: right;
+    list-style: none;
+    background: #434348;
+    padding: 2px 10px;
+    margin: 2px;
+    border-radius: 3px;
+}
+
+li.tag:hover {
+    background: #313135;
+
+}
+
+.mp3-container {
+    display: flex;
+    flex-flow: wrap;
+}
+    
+    
+  
+        
+  

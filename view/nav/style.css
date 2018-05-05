@@ -1,0 +1,49 @@
+nav.header {
+    margin-top: 5vh;
+    flex-wrap: wrap;
+}
+
+nav.header ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+nav.header li {
+    font-family: "vazir";
+    /*letter-spacing: -1px;*/
+    word-spacing: -1px;
+    font-size: 1.2em;
+    list-style: none;
+    padding: 0 8px;
+    float: right;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav.header li:hover {
+    background: #f5f5f5;
+    cursor: pointer;
+
+}
+
+nav.header {
+    display: flex;
+}
+
+nav.header span i {
+    color: #ff2896;
+    font-size: 24px;
+    margin-left: 3px;
+}
+
+nav.header li:first-child {
+    padding-right: 0;
+}
+
+nav.header li:last-child {
+    float: left;
+}

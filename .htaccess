@@ -1,0 +1,23 @@
+
+
+#Options -Indexes
+#RewriteEngine On
+#RewriteBase /
+#RewriteCond %{HTTP_HOST} !^$
+#RewriteCond %{HTTP_HOST} !^www\. [NC]
+#RewriteCond %{HTTPS}s ^on(s)|
+#RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+#RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+#RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+#RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+#RewriteCond %{REQUEST_URI} !\.(jpg|png|css|js|ttf|mp4|txt|woff|woff2|ttf|eot|svg|html|woff2|otf|JPG|mp3|xml)$
+#RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+#RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+#RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+#RewriteRule .* index.php [L]
+
+Options -Indexes
+RewriteEngine On
+RewriteBase /karimaneh/
+RewriteCond %{REQUEST_URI} !\.(jpg|png|css|js|ttf|txt|woff|ttf|eot|svg|woff2|otf|JPG|mp3|xml)$
+RewriteRule .* index.php [L]

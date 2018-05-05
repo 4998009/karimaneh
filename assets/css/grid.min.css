@@ -1,0 +1,207 @@
+
+
+.center, .container {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.left {
+    text-align: left
+}
+
+.right {
+    text-align: right
+}
+
+.center {
+    text-align: center
+}
+
+.justify {
+    text-align: justify
+}
+
+.row {
+    position: relative;
+    width: 100%
+}
+
+.row [class^=col] {
+    float: right;
+    box-sizing: border-box;
+    padding: 1px;
+    min-height: .125rem
+}
+
+/*.col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9 {*/
+/*width: 96%*/
+/*}*/
+
+.col-sm-12 {
+    width: 100%;
+}
+
+.col-sm-11 {
+    width: 91.66666667%;
+}
+
+.col-sm-10 {
+    width: 83.33333333%;
+}
+
+.col-sm-9 {
+    width: 75%;
+}
+
+.col-sm-8 {
+    width: 66.66666667%;
+}
+
+.col-sm-7 {
+    width: 58.33333333%;
+}
+
+.col-sm-6 {
+    width: 50%;
+}
+
+.col-sm-5 {
+    width: 41.66666667%;
+}
+
+.col-sm-4 {
+    width: 33.33333333%;
+}
+
+.col-sm-3 {
+    width: 25%;
+}
+
+.col-sm-2 {
+    width: 16.66666667%;
+}
+
+.col-sm-1 {
+    width: 8.33333333%;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.hidden-sm {
+    display: none
+}
+
+@media only screen and (max-width: 600px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.2em;
+    }
+
+    .content {
+        padding: 0 !important;
+    }
+
+    .flex {
+        flex-direction: row;
+    }
+
+    .row [class^=col] {
+        text-align: center;
+    }
+
+    .cover {
+        border-radius: 0;
+        width: 100%;
+    }
+
+    h3.titr a {
+        font-size: medium;
+    }
+
+    .row.audioBox.flex {
+        width: 50%;
+        border-left: 1px solid #101011;
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .audioBox i.material-icons {
+        color: grey;
+        font-size: 53px;
+    }
+
+    .next-s {
+        padding-top: 65px;
+    }
+
+}
+
+@media only screen and (min-width: 33.75em) {
+    .container{
+        max-width: 700px;
+    }
+
+
+}
+
+@media only screen and (min-width: 45em) {
+    .col-12 {
+        width: 100%;
+    }
+
+    .col-11 {
+        width: 91.66666667%;
+    }
+
+    .col-10 {
+        width: 83.33333333%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-8 {
+        width: 66.66666667%;
+    }
+
+    .col-7 {
+        width: 58.33333333%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-5 {
+        width: 41.66666667%;
+    }
+
+    .col-4 {
+        width: 33.33333333%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-2 {
+        width: 16.66666667%;
+    }
+
+    .col-1 {
+        width: 8.33333333%;
+    }
+
+    .hidden-sm {
+        display: block
+    }
+}
+
+ 

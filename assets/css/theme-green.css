@@ -1,0 +1,68 @@
+header {
+    height: 75px;
+    background: #323b6f;
+    width: 100%;
+    color: #ffffff !important;
+    top: 0;
+    border-top: 4px solid #364365;
+}
+/*header {*/
+    /*height: 130px;*/
+    /*background: #1d4637;*/
+    /*width: 100%;*/
+    /*color: #fff !important;*/
+    /*top: 0;*/
+    /*background: url(../images/bg.png) no-repeat;*/
+    /*background-size: cover;*/
+/*}*/
+
+.dark-green-bg {
+    background: #3F51B5;
+}
+.nav{
+    padding-right: 0;
+    /*height: 100% !important;*/
+}
+
+.logo {
+    /*background: url(../images/logo4.png) no-repeat;*/
+    /*background: url(../images/news-logo.png) no-repeat;*/
+    /*height: 31px;*/
+    /*margin-top: 20px;*/
+    /*background-size: contain;*/
+    /*background-position: right;*/
+    /*border-right: 20px solid #ddd;*/
+}
+
+.menuBar {
+    /*border-bottom: 1px solid #d3dcd9;*/
+}
+
+.statusBar {
+    height: 36px;
+    background: #f1f1f1;
+}
+
+.flex-r {
+    display: flex !important;
+    align-content: center !important;
+}
+
+.flex-r li {
+    list-style: none;
+    margin: 0 6px;
+}
+
+a:hover {
+    opacity: 0.9 !important;
+    transition: 0.1s all
+}
+
+.sahel {
+    font-family: 'myfont' !important;
+}
+.nav-tabs .nav-link {
+    background: #e4e4e4;
+    margin: 0 2px;
+    font-size: 14px;
+}

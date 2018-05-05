@@ -1,0 +1,201 @@
+.mrt20 {
+    margin-top: 20px;
+}
+
+.mrt40 {
+    margin-top: 40px;
+}
+
+.mrt80 {
+    margin-top: 80px;
+}
+
+* {
+    direction: rtl;
+    /*font-family: "myfont";*/
+}
+
+h1 {
+    font-family: Mitra;
+    font-family: "myfont";
+    font-family: "black";
+    letter-spacing: -2px;
+    word-spacing: -7px;
+    font-size: 4em;
+}
+
+.textBox {
+    /*width: 100%;*/
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+input.textBox:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #333;
+}
+
+.flex {
+    display: flex;
+    /*flex-direction: row-reverse;*/
+    align-items: center;
+    align-content: center;
+    /*justify-content: center;*/
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.vertical {
+    width: 100%;
+    height: 13px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    transform: rotate(-90deg);
+}
+
+.vertical span {
+    font-size: 16px;
+    background-color: #fff;
+    padding: 0 8px;
+}
+
+.relative {
+    position: relative
+}
+
+.padding00 {
+    padding: 0 0;
+}
+
+.margin00 {
+    margin: 0 0;
+}
+
+.prl10{
+    padding: 0 10px !important;
+}
+
+.titr {
+    font-size: 17px;
+}
+
+.small {
+    font-size: 12px !important;
+}
+
+.smallx {
+    font-size: 14px !important;
+
+}
+
+.btn {
+    /*background: #eee;*/
+    /*border-left: 1px solid #fff;*/
+    /*margin: 2px;*/
+    /*padding: 0 2px;*/
+
+}
+
+.btn:hover {
+    /*background: #ddd;*/
+
+    cursor: pointer;
+    /*border-radius: 2px;*/
+}
+
+.hide{
+    display: none;
+}
+
+.message{
+    position: fixed;
+    width: 150px;
+}
+
+input[type=submit]{
+    background: #424242;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    display: block;
+    font-size: large;
+    padding: 6px 24px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+
+
+input[type="text"],input[type="number"] {
+    font-size: large;
+    padding: 4px 12px;
+    margin: 5px 0;
+    display: block;
+    width: 100%;
+}
+
+select{
+    font-size: large;
+    padding: 4px 12px;
+    margin: 5px 0;
+    display: block;
+    width: 100%;
+    font-family: inherit;
+
+}
+
+.titr a:hover {
+        transition: 0.1s;
+    color: #ff2525;
+}
+
+a{
+     transition: 0.1s;
+}
+
+h3.titr a {
+    font-family: "vazir";
+}
+ 
+.btn-gray:hover{
+    background:#929292;
+}
+
+.btn-gray{
+    background: gray;
+    width: 20px;
+    text-align: center;
+    border-radius: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+}
+.btn-red{ 
+    background:#e61f1f;
+}
+.paging{
+    display: flex;
+    
+}
